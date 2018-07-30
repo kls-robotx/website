@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*
+{
+	margin:0;
+	padding:0;
+}
+html,body
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#navbar
+{
+	position:fixed;
+	top:0;
+	left:0;
+	background:#1a1a1c;
+	color:#fff;
+	width:100%;
+	height:7%;	
+	font-family:'Open Sans';
+}
+.title
+{
+	float:left;
+	width:20%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.nav-item
+{
+	width:10%;
+	height:100%;
+	float:right;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	user-select:none;
+	-moz-user-select:none;
+}
+.nav-item:hover
+{
+	text-decoration:underline;
+}
+
+.sect
+{
+	float:left;
+	height:50vh;
+}
+
+.full
+{
+	position:absolute;
+	left:5vw;
+	top:10vh;
+	width:90vw;
+	height:90vh;
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+
+.full .sect-image
+{
+	max-width:500px;
+	max-height:500px;
+}
+
+.full p
+{
+	margin-top:10%;
+	font-size:130%;
+}
+
+.one-half
+{
+	width:40vw;
+}
+
+.one-third
+{
+	width:23.33vw;
+}
+
+.sect-title
+{
+	float:left;
+	width:100%;
+	height:10%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:'Open Sans';
+}
+
+.sect-image
+{
+	float:left;
+	margin:3%;
+	max-width:175px;
+	border-radius:30px;
+}
+
+/*#mission-image
+{
+	max-width:300px;
+}
+
+#schedule-image
+{
+	max-width:260px;
+}
+
+#support-image
+{
+	max-width:150px;
+}*/
+
+.sect-text
+{
+	margin-top:10vh;
+	font-family:'Open Sans';
+	font-size:10pt;
+}
+
+.sect-textarea,.sect-button
+{
+	float:left;
+	width:100%;
+	height:10%;
+	resize:none;
+	border:0;
+	outline:0;
+	padding:0;
+	text-align:left;
+	font-family:'Open Sans';
+	font-size:11pt;
+}
+#name{margin-top:3vh;}
+#message{height:30%;}
